@@ -30,7 +30,7 @@ This project is built using **Python 3.10+** and relies on the following core li
    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
    cd YOUR_REPO_NAME|
 
-##Install Required Libraries
+## Install Required Libraries
   Run the following command in your terminal to install all modern, compatible dependencies:
   
   Bash
@@ -57,7 +57,7 @@ Make sure to feed the extracted article.summary into the TextBlob constructor.
 
 Run the script to see a live web summary and its corresponding sentiment score.
 
-##🧠 Code Architecture Breakdown
+## 🧠 Code Architecture Breakdown
 article.download() & article.parse(): Sends HTTP requests, fetches the raw page layout, isolates the main text content, and drops irrelevant sidebars.
 
 article.nlp() & article.summary: Tallies word frequencies and uses scoring heuristics to pinpoint sentences that contain the highest density of key informational weight.
