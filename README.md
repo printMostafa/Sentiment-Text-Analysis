@@ -64,5 +64,5 @@ article.nlp() & article.summary: Tallies word frequencies and uses scoring heuri
 
 blob.sentiment.polarity: Breaks down the text string into localized tokens, checks them against an integrated sentiment dictionary, and outputs the average score.
 
-##📄 License
+## 📄 License
 This project is open-source and available under the MIT License. Feel free to fork, modify, and distribute it as you see fit!
